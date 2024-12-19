@@ -36,6 +36,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/xmas_cheers/",
               "budgets": [
                 {
                   "type": "initial",

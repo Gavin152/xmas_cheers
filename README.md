@@ -2,6 +2,8 @@
 
 A festive Angular application to spread Christmas cheer! This app includes a beautiful Christmas tree animation, countdown to Christmas, and a Secret Santa generator to help organize your gift exchange.
 
+🌟 **[Live Demo](https://gavin152.github.io/xmas_cheers/)**
+
 ## ✨ Features
 
 ### 🎄 Interactive Christmas Tree
