@@ -1,0 +1,108 @@
+.christmas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a1a1a, #2d2d2d);
+  color: white;
+  padding: 2rem;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+
+  .star {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation: twinkle 1.5s infinite;
+  }
+
+  .tree-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tree-row {
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem 0;
+  }
+
+  .ornament {
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    animation: bounce 2s infinite;
+    animation-delay: calc(var(--delay) * 0.1s);
+  }
+
+  .trunk {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-link {
+  padding: 1rem 2rem;
+  background-color: #c41e3a;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #e52b45;
+    transform: scale(1.05);
+  }
+}
+
+.countdown-link {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #c41e3a;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #e52b45;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}

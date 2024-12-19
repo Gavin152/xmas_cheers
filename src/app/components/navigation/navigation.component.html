@@ -1,0 +1,25 @@
+<nav [class.menu-open]="isMenuOpen">
+  <div class="nav-content">
+    <div class="logo">
+      <a routerLink="/">🎄 Merry Xmas</a>
+    </div>
+    
+    <button class="burger" [class.active]="isMenuOpen" (click)="toggleMenu()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </button>
+
+    <div class="nav-links" [class.show]="isMenuOpen">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleMenu()">
+        <span>🎄</span> Christmas Tree
+      </a>
+      <a routerLink="/countdown" routerLinkActive="active" (click)="toggleMenu()">
+        <span>⏰</span> Countdown
+      </a>
+      <a routerLink="/secret-santa" routerLinkActive="active" (click)="toggleMenu()">
+        <span>🎅</span> Secret Santa
+      </a>
+    </div>
+  </div>
+</nav>
