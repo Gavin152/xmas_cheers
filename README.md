@@ -1,27 +1,117 @@
-# MerryXmas
+# 🎄 Merry Christmas App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+A festive Angular application to spread Christmas cheer! This app includes a beautiful Christmas tree animation, countdown to Christmas, and a Secret Santa generator to help organize your gift exchange.
 
-## Development server
+## ✨ Features
 
+### 🎄 Interactive Christmas Tree
+- Beautifully animated Christmas tree
+- Festive decorations and animations
+- Responsive design for all devices
+
+### ⏰ Christmas Countdown
+- Real-time countdown to Christmas
+- Days, hours, minutes, and seconds display
+- Animated countdown timer
+
+### 🎅 Secret Santa Generator
+- Easy participant management
+- Random pair generation
+- Fair distribution algorithm
+- No duplicate assignments
+- Clear and intuitive interface
+
+### 🎯 Technical Features
+- Modern Angular 17 application
+- Responsive design with mobile-first approach
+- Animated navigation with burger menu
+- Clean and modular architecture
+- Standalone components
+- Lazy-loaded modules
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+- Angular CLI (v17)
+
+### Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Gavin152/xmas_cheers.git
+   ```
+
+2. Navigate to the project directory
+   ```bash
+   cd xmas_cheers
+   ```
+
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+
+4. Start the development server
+   ```bash
+   ng serve
+   ```
+
+5. Open your browser and navigate to `http://localhost:4200`
+
+## 🎨 Project Structure
+
+```
+src/
+├── app/
+│   ├── components/        # Shared components
+│   │   └── navigation/    # Navigation with burger menu
+│   ├── features/
+│   │   └── christmas/     # Christmas feature module
+│   │       ├── components/
+│   │       │   ├── christmas-tree/
+│   │       │   ├── countdown/
+│   │       │   └── secret-santa/
+│   │       └── services/
+│   └── shared/           # Shared modules and utilities
+├── assets/              # Images and static files
+└── styles/             # Global styles
+```
+
+## 🛠️ Development
+
+### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
+### Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
+### Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## 📱 Responsive Design
+- Desktop: Full navigation menu
+- Tablet: Adaptive layout
+- Mobile: Burger menu with animated transitions
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🎨 Styling
+- Modern, festive design
+- Christmas-themed color palette
+- Smooth animations and transitions
+- Mobile-first approach
+- Custom scrollbar styling
 
-## Further help
+## 🤝 Contributing
+Contributions are welcome! Feel free to submit issues and pull requests.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+- Icons and images from various open-source projects
+- Angular team for the fantastic framework
+- All contributors and users of the app
+
+---
+
+Made with ❤️ and 🎄 by [Gavin152](https://github.com/Gavin152)
